@@ -1,0 +1,13 @@
+suppressMessages(library(gridExtra))
+suppressMessages(library(tidyverse))
+suppressMessages(library(ggplot2))
+suppressMessages(library(GGally))
+suppressMessages(library(MASS))
+suppressMessages(library(smotefamily))
+suppressMessages(library(randomForest))
+suppressMessages(library(rpart))
+suppressMessages(library(rpart.plot))
+suppressMessages(library(e1071))
+
+df = read.csv("Telco-Customer-Churn.csv", sep=",", na.strings="?")
+glimpse(df)
